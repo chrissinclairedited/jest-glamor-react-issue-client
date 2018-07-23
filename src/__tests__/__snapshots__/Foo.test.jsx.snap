@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Foo /> does not show the styles for the imported components 1`] = `
+<Component>
+  <Component
+    onClick={[Function]}
+  >
+    <div
+      data-css-1ea0ufb=""
+    >
+      <button
+        onClick={[Function]}
+      >
+        Foo button
+      </button>
+    </div>
+  </Component>
+</Component>
+`;

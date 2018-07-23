@@ -1,0 +1,38 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:dev": "jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+      "library": "1.0.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.4",
+    "glamor": "^2.20.40",
+    "jest": "^23.4.1",
+    "jest-glamor-react": "^4.3.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "jest": {
+    "rootDir": "src",
+    "snapshotSerializers": [
+      "jest-glamor-react",
+      "enzyme-to-json/serializer"
+    ],
+    "setupTestFrameworkScriptFile": "<rootDir>/setup.js"
+  }
+}
